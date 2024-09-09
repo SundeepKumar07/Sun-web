@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first website</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                 <img src="/img/logo.jpg" alt="" id="logo">>
+                    <ul>
+                       <li><a href="">HOME</a></li>
+                       <li><a href="">SERVICES</a></li>
+                       <li><a href="">CLIENTS</a></li>
+                       <li><a href="">PRODUCTS</a></li>
+                       <li><a href="">CONTACT US</a></li>
+                    </ul>
+                    <input type="search" name="search_box" placeholder="Search here" id="search_here">
+
+            </nav>
+        </header>
+        <section class="home">
+            <h1>Welcome to my website</h1>
+            <p id="Welcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laborum exercitationem quaerat corporis quia? Dolor earum tempore porro voluptatem accusamus. Nostrum veritatis quae voluptate odio reprehenderit beatae dolore tenetur inventore!</p>
+            <button>register now</button>
+            
+        </section>
+
+        <!-- services section starta from here -->
+        <section class="products">
+            <h2>SERVICES</h2>
+            <div class="productpart1">
+
+                <div class="box">
+                    <img src="/img/mobile.jpeg" alt="" class="productimg" id="mobile">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe illo officia placeat ex commodi laborum? Nulla quia quis, repellendus nam minus dolore deleniti voluptatum vero alias. Ab maiores architecto id soluta reiciendis rerum fugiat porro 
+                        </p>      
+                </div>
+
+                <div class="box">
+                    <img src="/img/earbuds.jpeg" alt="" class="productimg" id="earbuds">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi dolorum voluptate, accusantium assumenda, ratione sapiente numquam obcaecati quas quaerat aut adipisci eos eaque quis, placeat magni dolorem cupiditate non quae hic ullam. Corporis 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <img src="/img/watch.jpeg" alt="" class="productimg" id="waatch">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi dolorum voluptate, accusantium assumenda, ratione sapiente numquam obcaecati quas quaerat aut adipisci eos eaque quis, placeat magni dolorem cupiditate non quae hic ullam. Corporis 
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- clients section starts from here  -->
+
+        <secttion class="client-section">
+             <h2>CLIENTS</h2>
+            <div class="clients">
+                <img src="/img/client1.jpg" alt="" class="clientimg">
+                <img src="/img/client2.jpg" alt="" class="clientimg">
+                <img src="/img/client3.jpg" alt="" class="clientimg">
+                <img src="/img/client4.jpg" alt="" class="clientimg">
+                <img src="/img/client6.jpg" alt="" class="clientimg">
+            </div>
+        </secttion>
+
+        <section class="contact_section">
+            <div class="contact">
+                <form action="backend.php">
+                    <div class="name">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" class="contact_item">
+                    </div>
+                    <div class="address">
+                        <input type="text" name="address" id="address" placeholder="Enter your address" class="contact_item">
+                    </div>
+                    <div class="email">
+                        <input type="email" name="email" id="email" placeholder="Enter your email address" class="contact_item">
+                    </div>
+                    <div class="text_area">
+                        <textarea name="description" id="description" cols="30" rows="10"
+                        placeholder="Describe your issue here" class="contact_item"></textarea>
+                        <div class="reset">
+                            <input type="submit" value="reset" class="con_btm">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="submit" class="con_btm">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+
+</html>
