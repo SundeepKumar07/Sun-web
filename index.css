@@ -16,7 +16,7 @@
     .home::before{
      content: "";
      position: absolute;
-     background-image: url("/img/home.jpeg");
+     background-image: url("home.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
